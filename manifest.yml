@@ -1,0 +1,8 @@
+---
+applications:
+  - name: downloadtest
+    memory: 128M
+    disk_quota: 2G
+    instances: 3
+    buildpack: https://github.com/kr/heroku-buildpack-go.git
+    command: downloadtest
